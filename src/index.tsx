@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./test/reportWebVitals";
 import { App } from "./App";
 import "bootswatch/dist/morph/bootstrap.min.css";
 import "./index.css";
