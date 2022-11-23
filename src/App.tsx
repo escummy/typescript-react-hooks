@@ -1,7 +1,7 @@
 // import React from 'react';
 
 import "./App.css";
-import logo from "./logo.svg";
+import logo from "./assets/logo.svg";
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/TaskForm";
 import { Task } from "./interfaces/Task";
