@@ -1,4 +1,4 @@
-# Typescript with react hooks use cases
+# Typescript with react hooks 
 
 <!-- ## Travis CI badges and github actions
 # Logo: Framework, tool, base of the project not all  -->
@@ -14,14 +14,14 @@
 
  <!-- [![Build Status](https://travis-ci.org/escummy/dillinger.svg?branch=master)](https://travis-ci.org/escummy/dillinger) <img alt="Github workflows" src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg"/> <img alt="Contributor Covenant v2.1" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/> <img alt="License" src="https://img.shields.io/github/license/escummy/webpack-complete?style=flat-square&labelColor=343b41"/> -->
 
-> React hooks using typescript to create a TODO task App, where we apply glassmorphism and the create react app logo rotation in the navbar and cards with hooks implementing UI design buttons.
+> React hooks using typescript to create a to-do task app where we apply glassmorphism, create react app logo rotating in the navbar and unique ID hashes implementation.
 
 <br>
 
 <!-- ## Snapshots -->
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90976678/203574206-4bef39b6-582e-47e9-8569-9ca1a16ae7f9.gif" width="95%" title="node-typescript-setup repository by escummy" alt="accessibility text">
+  <img src="https://user-images.githubusercontent.com/90976678/203679462-a0ebdfb3-1b11-4442-94a6-f58780fba1ff.gif" width="95%" title="node-typescript-setup repository by escummy" alt="accessibility text">
 </p>
 
 <br>
@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### # Prerequisites
 
-To continue, you need to have installed: [`Node`]
+To continue, you need to have installed: `Node`
 
 <br>
 
@@ -70,7 +70,7 @@ Else, Install nodejs from the official site 'version LTS' (Recommended)
 
 ## Installing dependencies
 
-- Install the necessary dependencies and devDependencies from any package.json
+Install the necessary dependencies and devDependencies from any package.json
 
 ```bash
   npm install
@@ -82,38 +82,51 @@ Else, Install nodejs from the official site 'version LTS' (Recommended)
 
 In the project directory, you can run:
 
-### `npm start`
+```
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> Runs the app in the development mode.\
+> Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> > The page will reload if you make edits.\
+> > You will also see any lint errors in the console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+npm test
+````
 
-### `npm test`
+<br>
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+npm run build
+````
+
+<br>
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> The build is minified and the filenames include the hashes.\
+> Your app is ready to be deployed!
+> > See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+```
+npm run eject
+```
+
+<br>
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
 
 ## Learn More
 
