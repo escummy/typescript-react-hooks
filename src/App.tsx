@@ -15,13 +15,13 @@ export function App({ title }: Props) {
   const [tasks, setTasks] = useState<Task[]>([
     {
       id: 1,
-      title: "Task one",
+      title: "Task name",
       description: "Task description",
       completed: false,
     },
   ]);
 
-  // To generate a random id based in getCurrentTimestamp, sometimes is better to try with uuid for production and SQL databases when it is obligatory)
+  // To generate a random id based in getCurrentTimestamp, but better to try with 'uuid' for production and SQL databases (when it is obligatory)
   const getCurrentTimestamp = (): number => new Date().getTime();
 
   const addNewTask = (task: Task) => setTasks([...tasks, {...task, id: getCurrentTimestamp(), completed: false}]);
@@ -30,10 +30,10 @@ export function App({ title }: Props) {
   const deleteTask = (id: number) => setTasks (tasks.filter(task => task.id !== id));
 
   return (
-    <div className="bg-dark" style={{ height: "100vh" }}>
+    <div className="bg-secondary" style={{ height: "100vh" }}>
 
       {/* Navbar */}
-      <nav className="navbar navbar-dark bg-secondary">
+      <nav className="navbar bg-secondary">
         <div className="container">
           <a href="/" className="navbar-brand">
             <img
@@ -41,7 +41,7 @@ export function App({ title }: Props) {
               alt="Create react app logo"
               className="App-logo"
               />
-            {title && <h1>{title}</h1>}
+              {title && <h1>{title}</h1>}
           </a>
         </div>
       </nav>
